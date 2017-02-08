@@ -1,0 +1,27 @@
+﻿<Window x:Class="WPFCalculator.Calculator"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Calculator" Height="500" Width="330" HorizontalAlignment="Center" VerticalAlignment="Center" ResizeMode="CanMinimize" Background="LightSlateGray" WindowStartupLocation="CenterScreen" Icon="/WPFCalculator;component/calculator1.ico">
+    <Grid Width="320">
+        <TextBox Height="43" Margin="10,6,0,0" Name="textBox" VerticalAlignment="Top" Width="300" HorizontalAlignment="Left" Foreground="Black" FontSize="30" TextAlignment="Right" IsReadOnly="False" MaxLines="1" FontFamily="黑体" AcceptsReturn="False" Background="LightPink">0</TextBox>
+        <Button Width="60" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,70,0,0" Name="button_clear" FontSize="30" FontFamily="黑体" Foreground="DarkRed" Click="button_clear_Click">C</Button>
+        <Button Width="60" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="170,70,0,0" Name="button_backspace" FontFamily="黑体" FontSize="30" Foreground="DarkRed" Click="button_backspace_Click">&lt;--</Button>
+        <Button Width="60" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="90,70,0,0" Name="button_opposite" FontFamily="黑体" FontSize="30" Foreground="DarkRed" Click="button_opposite_Click">+/-</Button>
+        <Button Width="60" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,390,0,0" Name="button_point" FontFamily="黑体" FontSize="50" Foreground="DarkRed" Click="button_point_Click">.</Button>
+        <Button  Width="139" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="170,390,0,0" Name="button_result" FontFamily="黑体" FontSize="50" Foreground="DarkRed" Click="button_result_Click">=</Button>
+        <Button Width="60" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="250,70,0,0" Name="button_plus" FontFamily="黑体" FontSize="30" Foreground="DarkRed" Click="button_plus_Click">+</Button>
+        <Button Width="60" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="250,150,0,0" Name="button_minus" FontFamily="黑体" FontSize="30" Foreground="DarkRed" Click="button_minus_Click">-</Button>
+        <Button Width="60" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="250,230,0,0" Name="button_multiply" FontFamily="黑体" FontSize="30" Foreground="DarkRed" Click="button_multiply_Click">*</Button>
+        <Button Width="60" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="250,310,0,0" Name="button_divide" FontFamily="黑体" FontSize="30" Foreground="DarkRed" Click="button_divide_Click">/</Button>
+        <Button Width="60" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,150,0,0" Name="button_seven" FontFamily="黑体" FontSize="30" Click="button_seven_Click">7</Button>
+        <Button Width="60" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="90,150,0,0" Name="button_eight" FontFamily="黑体" FontSize="30" Click="button_eight_Click">8</Button>
+        <Button Width="60" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="170,150,0,0" Name="button_nine" FontFamily="黑体" FontSize="30" Click="button_nine_Click">9</Button>
+        <Button Width="60" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,230,0,0" Name="button_four" FontFamily="黑体" FontSize="30" Click="button_four_Click">4</Button>
+        <Button Width="60" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="90,230,0,0" Name="button_five" FontFamily="黑体" FontSize="30" Click="button_five_Click">5</Button>
+        <Button Width="60" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="170,230,0,0" Name="button_six" FontFamily="黑体" FontSize="30" Click="button_six_Click">6</Button>
+        <Button Width="60" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,310,0,0" Name="button_one" FontFamily="黑体" FontSize="30" Click="button_one_Click">1</Button>
+        <Button Width="60" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="90,310,0,0" Name="button_two" FontFamily="黑体" FontSize="30" Click="button_two_Click">2</Button>
+        <Button Width="60" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="170,310,0,0" Name="button_three" FontFamily="黑体" FontSize="30" Click="button_three_Click">3</Button>
+        <Button Width="60" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="90,390,0,0" Name="button_zero" FontFamily="黑体" FontSize="30" Click="button_zero_Click">0</Button>
+    </Grid>
+</Window>
